@@ -8,5 +8,19 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "_moduleAliases": {
+    "@app": "dist/app",
+    "@framework": "dist/framework"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "module-alias": "^2.2.2",
+    "concurrently": "^5.1.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.7"
+  }
 }
